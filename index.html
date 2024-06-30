@@ -52,29 +52,29 @@
         <nav>
             <ul>
                 <li><a href="#home">Home</a></li>
-                <li><a href="#Pendahuluan">About</a></li>
-                <li><a href="#Tinjauan Pustaka">Features</a></li>
+                <li><a href="#pendahuluan">Pendahuluan</a></li>
+                <li><a href="#tinjauan-pustaka">Tinjauan Pustaka</a></li>
                 <li><a href="#data">Data</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
-    <section id="about">
+    <section id="pendahuluan">
         <h2>Pendahuluan</h2>
         <p>Banjir sering terjadi di Indonesia, termasuk di Kabupaten Situbondo yang mengalami banjir tahunan akibat hujan deras dan sungai yang meluap. Wilayah perkotaan Situbondo sering terkena banjir karena topografinya cekung, meskipun ada upaya normalisasi sungai dan selokan. Curah hujan yang tinggi dari daerah hulu Kabupaten Bondowoso juga berkontribusi dalam menyebabkan banjir. Penelitian menggunakan GIS dilakukan untuk mengetahui tingkat kerentanan banjir dengan data ketinggian, kelerengan, jarak dari sungai, limpasan air, dan curah hujan, disajikan melalui WebGIS.</p>
     </section>
-    <section id="features">
+    <section id="tinjauan-pustaka">
         <h2>Tinjauan Pustaka</h2>
-        <p>Explore various layers, detailed flood risk information, and interactive maps to understand vulnerability in different regions.</p>
+        <p>Jelajahi berbagai lapisan, informasi rinci tentang risiko banjir, dan peta interaktif untuk memahami kerentanan di berbagai wilayah.</p>
     </section>
     <section id="data">
         <h2>Data Sources</h2>
-        <p>The data is sourced from reliable agencies, providing accurate and up-to-date information on flood risks in Situbondo.</p>
+        <p>Data diperoleh dari lembaga terpercaya, menyediakan informasi akurat dan terkini tentang risiko banjir di Situbondo.</p>
     </section>
     <div id="map"></div>
     <section id="contact">
         <h2>Contact</h2>
-        <p>For more information, contact us at <a href="mailto:info@situbondo.go.id">info@situbondo.go.id</a>.</p>
+        <p>Untuk informasi lebih lanjut, hubungi kami di <a href="mailto:info@situbondo.go.id">info@situbondo.go.id</a>.</p>
     </section>
     <script src="js/qgis2web_expressions.js"></script>
     <script src="js/leaflet.js"></script>
@@ -199,50 +199,4 @@
                     return {
                         pane: 'pane_kerentananbanjir_1',
                         opacity: 1,
-                        color: 'rgba(35,35,35,1.0)',
-                        dashArray: '',
-                        lineCap: 'butt',
-                        lineJoin: 'miter',
-                        weight: 1.0, 
-                        fill: true,
-                        fillOpacity: 1,
-                        fillColor: 'rgba(81,202,97,1.0)',
-                        interactive: true,
-                    };
-                case 'Sangat Rawan':
-                    return {
-                        pane: 'pane_kerentananbanjir_1',
-                        opacity: 1,
-                        color: 'rgba(35,35,35,1.0)',
-                        dashArray: '',
-                        lineCap: 'butt',
-                        lineJoin: 'miter',
-                        weight: 1.0, 
-                        fill: true,
-                        fillOpacity: 1,
-                        fillColor: 'rgba(205,24,54,1.0)',
-                        interactive: true,
-                    };
-                default:
-                    return {};
-            }
-        }
-
-        map.createPane('pane_kerentananbanjir_1');
-        map.getPane('pane_kerentananbanjir_1').style.zIndex = 401;
-        map.getPane('pane_kerentananbanjir_1').style['mix-blend-mode'] = 'normal';
-        var layer_kerentananbanjir_1 = new L.geoJson(json_kerentananbanjir_1, {
-            attribution: '',
-            interactive: true,
-            dataVar: 'json_kerentananbanjir_1',
-            layerName: 'layer_kerentananbanjir_1',
-            pane: 'pane_kerentananbanjir_1',
-            onEachFeature: pop_kerentananbanjir_1,
-            style: style_kerentananbanjir_1_0,
-        });
-        bounds_group.addLayer(layer_kerentananbanjir_1);
-        map.addLayer(layer_kerentananbanjir_1);
-        setBounds();
-    </script>
-</body>
-</html>
+                        color
