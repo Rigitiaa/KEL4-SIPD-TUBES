@@ -15,10 +15,10 @@
 
 /* Variabel untuk warna yang dapat digunakan di seluruh CSS */
 :root {
-    --bgcolor: #368ac2; /* Warna latar belakang */
-    --snd-bg-color: #36a8c2; /* Warna latar belakang kedua */
+    --bgcolor: #AAE4E9; /* Warna latar belakang */
+    --snd-bg-color: #40AAB3; /* Warna latar belakang kedua */
     --text-color: #000; /* Warna teks */
-    --main-color: #AAE4E9; /* Warna utama */
+    --main-color: #1B3A4E; /* Warna utama */
 }
 
 /* Pengaturan ukuran font root */
