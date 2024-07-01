@@ -15,10 +15,10 @@
 
 /* Variabel untuk warna yang dapat digunakan di seluruh CSS */
 :root {
-    --bgcolor: #191f36; /* Warna latar belakang */
-    --snd-bg-color: #262b40; /* Warna latar belakang kedua */
-    --text-color: #fff; /* Warna teks */
-    --main-color: #59b2f4; /* Warna utama */
+    --bgcolor: #1B3A4E; /* Warna latar belakang */
+    --snd-bg-color: #40AAB3; /* Warna latar belakang kedua */
+    --text-color: #000; /* Warna teks */
+    --main-color: #AAE4E9; /* Warna utama */
 }
 
 /* Pengaturan ukuran font root */
@@ -44,7 +44,7 @@ section {
     left: 0; /* Kiri 0 */
     width: 100%; /* Lebar 100% */
     padding: 2rem 9%; /* Padding atas dan bawah */
-    background: #242b39; /* Warna latar belakang */
+    background: #1B3A4E; /* Warna latar belakang */
     display: flex; /* Tampilan flex */
     justify-content: space-between; /* Justify-content space-between */
     align-items: center; /* Align-items center */
@@ -53,7 +53,7 @@ section {
 
 /* Pengaturan logo */
 .logo {
-    font-size: 2.5rem; /* Ukuran font logo */
+    font-size: 2rem; /* Ukuran font logo */
     color: var(--text-color); /* Warna teks logo */
     font-weight: 700; /* Ketebalan font logo */
     cursor: default; /* Kursor default */
