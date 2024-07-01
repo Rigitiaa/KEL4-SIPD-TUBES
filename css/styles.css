@@ -15,7 +15,7 @@
 
 /* Variabel untuk warna yang dapat digunakan di seluruh CSS */
 :root {
-    --bgcolor: #4286b3; /* Warna latar belakang */
+    --bgcolor: #368ac2; /* Warna latar belakang */
     --snd-bg-color: #40AAB3; /* Warna latar belakang kedua */
     --text-color: #000; /* Warna teks */
     --main-color: #AAE4E9; /* Warna utama */
