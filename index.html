@@ -10,16 +10,15 @@
     <link rel="stylesheet" href="css/L.Control.Layers.Tree.css">
     <link rel="stylesheet" href="css/qgis2web.css">
     <link rel="stylesheet" href="css/fontawesome-all.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
     <style>
         html, body, #map {
             width: 100%;
             height: 100%;
             padding: 0;
             margin: 0;
-            font-family: 'Poppins', sans-serif;
         }
         body {
+            font-family: Arial, sans-serif;
             line-height: 1.6;
         }
         header {
@@ -59,7 +58,6 @@
             </ul>
         </nav>
         <h1>Implementasi GIS dalam Analisis Kerentanan Banjir Kabupaten Situbondo</h1>
-        <h2>Kelompok 4</h2>
     </header>
     <section id="pendahuluan">
         <h2>Pendahuluan</h2>
@@ -138,7 +136,7 @@
             return this._div;
         };
         title.update = function() {
-            this._div.innerHTML = '<h2>Peta Kerentanan Banjir</h2>';
+            this._div.innerHTML = '<h2>Implementasi GIS dalam Analisis Kerentanan Banjir Kabupaten Situbondo</h2>';
         };
         title.addTo(map);
         var zoomControl = L.control.zoom({
@@ -195,13 +193,13 @@
                         pane: 'pane_kerentananbanjir_1',
                         opacity: 1,
                         color: 'rgba(35,35,35,1.0)',
-                        dashArray
+                        dashArray: '',
                         lineCap: 'butt',
                         lineJoin: 'miter',
-                        weight: 1.0,
+                        weight: 1.0, 
                         fill: true,
                         fillOpacity: 1,
-                        fillColor: 'rgba(67,162,202,1.0)',
+                        fillColor: 'rgba(46,198,221,1.0)',
                         interactive: true,
                     };
                 case 'Rawan':
@@ -212,10 +210,10 @@
                         dashArray: '',
                         lineCap: 'butt',
                         lineJoin: 'miter',
-                        weight: 1.0,
+                        weight: 1.0, 
                         fill: true,
                         fillOpacity: 1,
-                        fillColor: 'rgba(250,202,46,1.0)',
+                        fillColor: 'rgba(255,127,39,1.0)',
                         interactive: true,
                     };
                 case 'Sangat Rawan':
@@ -226,10 +224,10 @@
                         dashArray: '',
                         lineCap: 'butt',
                         lineJoin: 'miter',
-                        weight: 1.0,
+                        weight: 1.0, 
                         fill: true,
                         fillOpacity: 1,
-                        fillColor: 'rgba(215,25,28,1.0)',
+                        fillColor: 'rgba(255,0,0,1.0)',
                         interactive: true,
                     };
             }
