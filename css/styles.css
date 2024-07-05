@@ -15,7 +15,7 @@
 
 /* Variabel untuk warna yang dapat digunakan di seluruh CSS */
 :root {
-    --bgcolor: linear-gradient(to bottom, #AAE4E9, #fff; /* Warna latar belakang */
+    --bgcolor: linear-gradient(to bottom, #AAE4E9, #fff); /* Warna latar belakang */
     --snd-bg-color: #40AAB3; /* Warna latar belakang kedua */
     --text-color: #000; /* Warna teks */
     --main-color: #1B3A4E; /* Warna utama */
