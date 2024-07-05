@@ -54,7 +54,7 @@ ScrollReveal().reveal('.home-content p, .about-content', {origin: 'right'});
 
 /* typed js*/
 const typed = new Typed('.multiple-text', {
-    strings: ['Khalishah N', 'Nazira Q', 'Eka B', 'Rizkyani', 'Abdullah'],
+    strings: ['Kelompok 4', 'Kelompok 4', 'Kelompok 4'],
     typeSpeed: 70,
     backSpeed: 70,
     backDelay: 1000,
