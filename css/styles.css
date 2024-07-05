@@ -44,7 +44,7 @@ section {
     left: 0; /* Kiri 0 */
     width: 100%; /* Lebar 100% */
     padding: 2rem 9%; /* Padding atas dan bawah */
-    background: #1B3A4E; /* Warna latar belakang */
+    background: linear-gradient(to bottom, #AAE4E9, #fff); /* Warna latar belakang */
     display: flex; /* Tampilan flex */
     justify-content: space-between; /* Justify-content space-between */
     align-items: center; /* Align-items center */
